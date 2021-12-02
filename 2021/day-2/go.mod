@@ -1,4 +1,4 @@
-module day-1
+module day-2
 
 go 1.16
 
