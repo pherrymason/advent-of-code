@@ -22,6 +22,18 @@ func createOperation(movement string, units int) operation {
 	}
 }
 
+func createForward(units int) operation {
+	return createOperation("forward", units)
+}
+
+func createDown(units int) operation {
+	return createOperation("down", units)
+}
+
+func createUp(units int) operation {
+	return createOperation("up", units)
+}
+
 func (o *operation) isEnd() bool {
 	return o.end
 }

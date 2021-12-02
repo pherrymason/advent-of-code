@@ -48,5 +48,9 @@ func main() {
 		fmt.Printf("%s %d\n", operation.movement, operation.units)
 	}
 
-	fmt.Printf("Submarine horizontal: %d, depth: %d => %d", submarine.horizontal, submarine.depth, submarine.horizontal*submarine.depth)
+	fmt.Printf("Submarine horizontal: %d, depth: %d, aim: %d => %d",
+		submarine.horizontal,
+		submarine.depth,
+		submarine.aim,
+		submarine.horizontal*submarine.depth)
 }
